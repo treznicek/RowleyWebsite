@@ -1,8 +1,11 @@
 library(shiny)
 
 fluidPage(
-    titlePanel("Your Lab's Website"),
+    titlePanel("Rowley Lab Website"),
     
+    # Including CSS files
+    includeCSS("www/css/style.css"),
+
     navbarPage("Lab", id="nav",
                tabPanel("Home",
                         includeHTML("www/home.html")),

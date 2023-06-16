@@ -164,6 +164,12 @@ div.addrSearch.search {
 	width: 100%;
 }
 
+.profile-img {
+    width: 80px;   /* or any other size you prefer */
+    height: 80px;  /* make sure this is the same as width to maintain the circle shape */
+    object-fit: cover; /* this will ensure the image covers the full width and height without distortion */
+}
+
 /* shinyapps.io override */
 
 div#ss-connect-dialog {
